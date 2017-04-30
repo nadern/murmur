@@ -10,7 +10,7 @@ There are several files here that you need to customize for your institution:
 5) clarity_phones.csv
 --
 
-1) Fill in the values required by the parameters file. See below for definitions
+(1) Fill in the values required by the parameters file. See below for definitions
 - SQL Server: 
 sshostname is your Epic SQL Server host name, 
 ssusername is your Epic SQL Server user name, 
@@ -33,14 +33,14 @@ emailpw is your e-mail password,
 email sender is your full e-mail address, 
 emailcasereview is the e-mail that Murmur should use to notify of 5-day readmits where respondent requested case review
 
-2) This file contains the bulk of the functions that are used by readmission_murmur_with_redcap
+(2) This file contains the bulk of the functions that are used by readmission_murmur_with_redcap
 
-3) This is the main Python file. This is what you provide to Microsoft Task Scheduler to have your Murmur run every day
+(3) This is the main Python file. This is what you provide to Microsoft Task Scheduler to have your Murmur run every day
 My task scheduler settings are: "run only when user is logged on", trigger is "daily" at 2 pm, action is "start a program", I use "C:\Users\nader\Anaconda\python.exe" as the path to the python interpreter (because I use Anaconda as my IDE for Python), "add arguments" contains the full path to the readmission_murmur_with_redcap file (in quotes), "start in" is the directory where you've put the Murmur files.
 
-4) name_translator is a CSV file with two columns: name of the person as listed in Amion, name of the person in the Clarity database
+(4) name_translator is a CSV file with two columns: name of the person as listed in Amion, name of the person in the Clarity database
 
-5) clarity_phones.csv is a CSV file with two columns: the person's name in the Clarity databse, the person's cellphone number written as an e-mail address for use in text messaging (you need to know the person's cellphone provider to append the right domain name)
+(5) clarity_phones.csv is a CSV file with two columns: the person's name in the Clarity databse, the person's cellphone number written as an e-mail address for use in text messaging (you need to know the person's cellphone provider to append the right domain name)
 AT&T: txt.att.net (e.g. 5551234@txt.att.net)
 T-Mobile: tmomail.net
 Verizon: vtext.com
