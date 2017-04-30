@@ -80,7 +80,7 @@ def service_to_attg_converter(service, attg_dict, listed_attg):
             except KeyError:
                 readmit_attg_name = listed_attg
     if re.search('NIGHT', service_name):
-        readmit_attg_name = 'NAJAFI, NADER'
+        readmit_attg_name = 'N*, NADER'
     else: 
         readmit_attg_name = listed_attg
     
