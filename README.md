@@ -11,26 +11,26 @@ There are several files here that you need to customize for your institution:
 
 
 1) Fill in the values required by the parameters file. See below for definitions
-- SQL Server
-sshostname is your Epic SQL Server host name
-ssusername is your Epic SQL Server user name
-sspassword is your Epic SQL Server password
+- SQL Server: 
+sshostname is your Epic SQL Server host name, 
+ssusername is your Epic SQL Server user name, 
+sspassword is your Epic SQL Server password, 
 sql_query is the SQL query you want Murmur to run
 
-- Amion
+- Amion: 
 amionlo is your password to amion
 
-- Redcap
-redcaptoken is your API token from Redcap
-redcapid is your Redcap survey's ID (alphanumeric string)
+- Redcap:
+redcaptoken is your API token from Redcap, 
+redcapid is your Redcap survey's ID (alphanumeric string), 
 redcapurl is the URL for the Redcap API
 
-- E-mail
-emailhost is your e-mail host name
-emailehlo is the domain for your e-mail host
-emailusername is your e-mail user name
-emailpw is your e-mail password
-email sender is your full e-mail address
+- E-mail: 
+emailhost is your e-mail host name, 
+emailehlo is the domain for your e-mail host, 
+emailusername is your e-mail user name, 
+emailpw is your e-mail password, 
+email sender is your full e-mail address, 
 emailcasereview is the e-mail that Murmur should use to notify of 5-day readmits where respondent requested case review
 
 2) This file contains the bulk of the functions that are used by readmission_murmur_with_redcap
