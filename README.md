@@ -11,21 +11,21 @@ There are several files here that you need to customize for your institution:
 
 
 1) Fill in the values required by the parameters file. See below for definitions
-SQL Server
+- SQL Server
 sshostname is your Epic SQL Server host name
 ssusername is your Epic SQL Server user name
 sspassword is your Epic SQL Server password
 sql_query is the SQL query you want Murmur to run
-//
-Amion
+
+- Amion
 amionlo is your password to amion
-//
-Redcap
+
+- Redcap
 redcaptoken is your API token from Redcap
 redcapid is your Redcap survey's ID (alphanumeric string)
 redcapurl is the URL for the Redcap API
-//
-E-mail
+
+- E-mail
 emailhost is your e-mail host name
 emailehlo is the domain for your e-mail host
 emailusername is your e-mail user name
