@@ -1,4 +1,4 @@
-# Author: Nader Najafi
+# Author: Nader N
 
 import murmur_parameters
 import murmur_app_modular_with_redcap_without_so
