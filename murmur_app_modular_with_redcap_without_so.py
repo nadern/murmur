@@ -1,4 +1,4 @@
-# Author: Nader Najafi
+# Author: Nader N
 
 import smtplib
 from email.mime.text import MIMEText
