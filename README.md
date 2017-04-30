@@ -8,7 +8,7 @@ There are several files here that you need to customize for your institution:
 3) readmission_murmur_with_redcap
 4) name_translator.csv
 5) clarity_phones.csv
-
+--
 
 1) Fill in the values required by the parameters file. See below for definitions
 - SQL Server: 
