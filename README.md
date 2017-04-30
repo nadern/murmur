@@ -1,4 +1,4 @@
-Welcome to the Murmur source code repository! 
+##Welcome to the Murmur source code repository! 
 
 This version of Murmur is written to evaluate 5-day readmissions. Every day, it is run by Microsoft Task Scheduler, checks the Epic Clarity database for yesterday's 5-day readmits, identifies the discharge attending, identifies the readmitting attending (with help from the Amion API), text messages the discharge attending a Redcap survey link, waits two hours, pulls the "signout" field from the discharge attending's survey response, and texts the readmitting attending with the discharge attending's signout AND a Redcap survey link. Once a week it checks Redcap to see if any patients were referred for case review and sends a text message to the designated case reviewer with these patients' initials and CSN numbers.
 
